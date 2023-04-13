@@ -1,10 +1,10 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import userRouter from "./routes/user-routes";
-import adminRouter from "./routes/admin-routes";
-import movieRouter from "./routes/movie-routes";
-import bookingsRouter from "./routes/booking-routes";
+import userRouter from "./routes/user-routes.js";
+import adminRouter from "./routes/admin-routes.js";
+import movieRouter from "./routes/movie-routes.js";
+import bookingsRouter from "./routes/booking-routes.js";
 import cors from "cors";
 dotenv.config();
 const app = express();
