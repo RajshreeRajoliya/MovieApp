@@ -4,7 +4,7 @@ import {
   adminLogin,
   getAdminById,
   getAdmins,
-} from "../controllers/admin-controller";
+} from "../controllers/admin-controller.js";
 
 const adminRouter = express.Router();
 

@@ -3,7 +3,7 @@ import {
   deleteBooking,
   getBookingById,
   newBooking,
-} from "../controllers/booking-controller";
+} from "../controllers/booking-controller.js";
 
 const bookingsRouter = express.Router();
 

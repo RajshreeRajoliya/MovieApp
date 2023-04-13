@@ -7,7 +7,7 @@ import {
   login,
   singup,
   updateUser,
-} from "../controllers/user-controller";
+} from "../controllers/user-controller.js";
 
 const userRouter = express.Router();
 
