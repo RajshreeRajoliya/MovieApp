@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
-import Admin from "../models/Admin";
-import Movie from "../models/Movie";
+import Admin from "../models/Admin.js";
+import Movie from "../models/Movie.js";
 export const addMovie = async (req, res, next) => {
   const extractedToken = req.headers.authorization.split(" ")[1];
   if (!extractedToken && extractedToken.trim() === "") {
