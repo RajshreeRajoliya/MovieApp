@@ -18,11 +18,11 @@ app.use("/movie", movieRouter);
 app.use("/booking", bookingsRouter);
 
 
-
+const PORT = process.env.PORT || 8000;
 mongoose.connect(`mongodb://admin:${process.env.MONGODB_PASSWORD}@ac-ixtbdpt-shard-00-00.ahpnpso.mongodb.net:27017,ac-ixtbdpt-shard-00-01.ahpnpso.mongodb.net:27017,ac-ixtbdpt-shard-00-02.ahpnpso.mongodb.net:27017/?ssl=true&replicaSet=atlas-klwjl7-shard-0&authSource=admin&retryWrites=true&w=majority`)
 
 .then(()=>
-app.listen(8080 , () =>
+app.listen(PORT , () =>
 console.log("Connected To Database And Server Is Running")
 )
 ).catch((err) =>console.log(err))
