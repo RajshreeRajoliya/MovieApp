@@ -79,5 +79,5 @@ And it helped me learn many things to grow as an individul in my tech skills.
 
 ## Feedback
 
-If you have any feedback, please reach out to us.
+If you have any feedback, please reach out.
 
